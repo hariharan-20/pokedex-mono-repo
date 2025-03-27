@@ -1,0 +1,14 @@
+{
+  "name": "@packages/utils",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "axios": "^0.21.0"
+  }
+}
