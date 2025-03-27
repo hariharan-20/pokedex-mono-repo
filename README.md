@@ -1,7 +1,6 @@
-# Install yarn if not instaled in your machine
-## Usage
+# Usage
 
-To run the project, use the following commands:
+## To run the project, use the following commands:
 
 ```sh
 yarn install
