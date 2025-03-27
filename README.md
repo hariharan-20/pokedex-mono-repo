@@ -1,3 +1,9 @@
-#install yarn if not instaled in your machine
+# Install yarn if not instaled in your machine
+## Usage
 
-**yarn install**/n**yarn run dev**
+To run the project, use the following commands:
+
+```sh
+yarn install
+yarn run dev
+```
