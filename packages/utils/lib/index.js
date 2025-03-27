@@ -10,9 +10,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 import axios from 'axios';
 const API_URL = 'https://pokeapi.co/api/v2/pokemon';
 // Function to fetch list of Pokemon
-export const fetchPokemonList = (url) => __awaiter(void 0, void 0, void 0, function* () {
+export const fetchPokemonList = (...args_1) => __awaiter(void 0, [...args_1], void 0, function* (params = '') {
     try {
-        const response = yield axios.get(url || API_URL);
+        const response = yield axios.get(`${API_URL}${params}`);
         return response.data;
     }
     catch (error) {
